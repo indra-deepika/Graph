@@ -40,7 +40,7 @@ Here we can see that by the time we have to compute fibresult[i], we already hav
 as possible or as small as possible.
 - Counting the number of solutions: We want to calculate the total number of possible solutions </p>
 
-##### Every Dynamic Programming problem has a schema to be followed:
+#### Every Dynamic Programming problem has a schema to be followed:
 
 <!-- - Show that the problem can be broken down into optimal sub-problems.
 - Recursively define the value of the solution by expressing it in terms of optimal solutions for smaller sub-problems.
