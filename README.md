@@ -1,4 +1,4 @@
 # Graph
 
-\sum_{i=1}^n a_x
+$\sum_{i=1}^n a_x$
 
