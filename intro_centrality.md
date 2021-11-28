@@ -7,7 +7,7 @@ Centrality algorithms are used to understand the roles of paticular nodes in a g
 
 The first type of centrality that we are going to talk about is the degree centrality :
 
-INTERESTING FACT :bulb:
+:bulb: INTERESTING FACT 
 Degree Centrality was proposed by Linton C. Freeman in his paper "Centrality in Social Networks: Conceptual Clarificarion".
 
 In different types of graphs there are different types of degree centrality ie:
