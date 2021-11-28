@@ -1,4 +1,4 @@
-# Depth First Search / DFS
+# Depth First Search / DFS :cactus:
 
 DFS is a fundamental graph traversal algorithm. 
 
@@ -31,19 +31,7 @@ dfs(u); // selecting a neighbour and applying dfs on it
 }
 }
 ```
-# Breadth First Search :seedling:
 
-Breeadth First Search is a graph traversal algoithm 
-
-## How does it work ?
-First we saerch some arbitarary node in agraph , from that node we explore its neighboring nodes first and then we move on to next level of neighbours an so on.
-
-# Places we can use it in
-- To find the shortest paths in a graph 
-## Time Complexity 
-O(V+E)
-
-## Implementation
 
 
 
