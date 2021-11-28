@@ -12,7 +12,9 @@ Pagerank can be computed iteratively ie moving from the node to its neighbours a
 
 Let us assume that there are n pages T1...Tn that refer to a given page , then the PageRank as defined by Google paper goes as follows:
 
+```
 PR(u) = 1-d + d( PR(T1)/C(T1) + ...... + PR(Tn)/C(Tn))
+```
 
 - d is the damping factor which lies between the number 0 and 1  and is generally set to value of 0.85. This damping factor is taken as th probability that the user will continue to click on the link.
 
@@ -33,37 +35,48 @@ In the first iteration let us give each page a rank of 1/5.
 Iteration 1:
 
 PR(1): Page 1 has one incoming link from Page 3 and Page 3 has four outgoing links. 
+
+```
 So the PR(1) = PR(3)/4 = (1/5)/4 = 1/20
+```
 
 PR(2): Page 2 has incoming link from Page 1 and Page 1 has one out going link, one incoming link from 3 and Page 3 has four outgoing links. 
-So the PR(2)= PR(1)/1 + PR(3)/4 = 1/5 + (1/5)/4  = 5/20 
 
+```
+So the PR(2)= PR(1)/1 + PR(3)/4 = 1/5 + (1/5)/4  = 5/20 
+```
 Here the PR()'s are from the frevious iteration hence we donot use the PR of the 2nd iteration for page 1.
 
 Similary we get ,
 
+```
 PR(3) = PR(4)/2 = (1/5)/2 = 1/10
 PR(4) = PR(3)/4 + PR(5)/1 = 1/20 + 1/5 = 5/20
 PR(5) = PR(2)/1 + PR(3)/4 + PR(4)/2 = 1/5 + 1/20 + 1/10 = 7/20
+```
 
 Iteration 2: 
 
 Using the same formulas and using the PR's of the 1st iterations we get the page rank for the 2nd iteration .
 ie 
 
+```
 PR(1) = 1/20
 PR(2) = 5/20
 PR(3) = 1/10
 PR(4) = 5/20
 PR(5) = 7/20
+```
 
 And we get them to be
 
+```
 PR(1) = 1/40
 PR(2) = 3/40
 PR(3) = 5/40
 PR(4) = 15/40
 PR(5) = 16/40
+```
 
 So the final ranks are as following 
 
