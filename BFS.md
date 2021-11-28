@@ -26,7 +26,7 @@ Let us see this with a help of an example
 2. Let us take the starting node as S and mark it as visited.
 
 - Queue
-- 
+ 
 | | |
 |--|--|
 
