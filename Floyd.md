@@ -13,7 +13,7 @@ To do implement this first we take a matrix with all the edge lengths maapped on
 
 Let us take an example :
 
-Let the edges be
+Let the edges be <br>
 1 -> 2 : length = 3 <br>
 2 -> 3 : length = 2 <br>
 3 -> 4 : length = 1 <br>
@@ -27,7 +27,7 @@ now we construct a matrix representing this graph
 
 [0 3  inf  7]<br>
 [8 0   2  inf]  = A0 <br>
-[5 inf 0   1] <br><
+[5 inf 0   1] <br>
 [2 inf inf 0] <br>
 
 Now we construct a matrix such that we take all paths that have an intermediate vertex = 1
@@ -36,7 +36,7 @@ Now we modify all thesse values such that we can add the paths having 1 as the t
 So now we get  A1[2,3] = min{ A0[2,1] + A0[1,3], A0[2,3] } <br>
                A1[2,4] = min{ A0[2,1] + A0[1,4], A0[2,4] } <br>
 
-               this can be done for each matrix value 
+           this can be done for each matrix value 
 
 we get the matrix A1 = 
 
