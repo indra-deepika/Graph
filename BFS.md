@@ -26,12 +26,15 @@ Let us see this with a help of an example
 2. Let us take the starting node as S and mark it as visited.
 
 - Queue
+- 
 | | |
-|--| |
+|--|--|
+
 <!-- pic -->
 3. Now let's visit the unvisited adjacent node from S, mark it as visited and enqueue it . In this example there are 3 adjacent nodes for the vertex S so we enqueue them one by one 
 
 - Queue 
+
 | C | B | A |
 |---|---|---|
 
