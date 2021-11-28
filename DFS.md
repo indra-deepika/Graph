@@ -2,15 +2,15 @@
 
 DFS is a fundamental graph traversal algorithm. 
 
-#### How it works?
+### How it works?
 We start from a node , pick one of its neighbors and traverse as far as we can before bactracking. We do this until we have covered all the nodes of the graph.
 
-#### Intersting Fact :bulb:
+###  :bulb: Intersting Fact
 DFS was originally invented by French mathematician Charles Pierre Tremaux as a stategy for solving mazes.
 
  <!-- ////////////////////Insert Pic ///////////////////////////////////////////////////-->
 
-#### Implementation
+###Implementation
 
 We are assuming that the graph is stored in terms of an adjacency list. To implement the algorithm apart from the adjacency list that represents the graph we will also need an array that keeps track of the nodes that have been visited. 
 
