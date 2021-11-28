@@ -13,17 +13,16 @@ d(u,v) is the shortest distance between the nodes u and v
 For getting normalised score to compare nodes of different graph we use the inverse of average length of the shortest path rather than the sum of shortest path.
 So, the normalised closeness centrality is given by
 
-```
+
 C<sub>norm</sub>(u)= n-1/ ∑ <sub>v=1</sub> <sup> v=n-1</sup> d(u,v) 
-```
+
 
 ## Closeness Centrality Variation: Wasserman and Faust
 
 We modify the above problem to find the ratio of fraction of nodes in the group that are reachable to the average distance from the reachable nodes.
 
-```
+
 C<sub>WF</sub>(u)= (n-1/N-1)*(n-1/ ∑ <sub>v=1</sub> <sup> v=n-1</sup> d(u,v) )
-```
 
 here:
 - u is a node.
