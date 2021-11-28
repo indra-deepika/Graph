@@ -1,4 +1,4 @@
-# Depth First Search / DFS :cactus:
+# :cactus: Depth First Search / DFS 
 
 DFS is a fundamental graph traversal algorithm. 
 
