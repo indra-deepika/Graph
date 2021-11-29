@@ -1,6 +1,6 @@
 ### Simple Graph 
 Pair of vertices can have only one edge betweeen them.
-### Multighraph
+### Multigraph
 Vertex pair can have multiple edges between them
 ### Graph or Pseudograph
 Vertex pairs can have multiple edges between them, vertices can loop back to themselves.
