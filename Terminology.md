@@ -1,8 +1,10 @@
-### Simple Graph 
+# Important Terminology
+
+## Simple Graph 
 Pair of vertices can have only one edge betweeen them.
-### Multigraph
+## Multigraph
 Vertex pair can have multiple edges between them
-### Graph or Pseudograph
+## Graph or Pseudograph
 Vertex pairs can have multiple edges between them, vertices can loop back to themselves.
 
 ## Directed Graph  vs Undirected Graph
