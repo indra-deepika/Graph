@@ -1,4 +1,4 @@
-# Shortest/Longest Path in DAG
+# ⛄ Shortest/Longest Path in DAG
 
 Let use dynamic programming to find out the shortest path in DAG from the source node S to the destination node T.
 
