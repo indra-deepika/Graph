@@ -9,7 +9,7 @@ Vertex pairs can have multiple edges between them, vertices can loop back to the
 
 ## Directed Graph  vs Undirected Graph
 A directed graph or digraph is graph where all the edges are directed from one vertex to another. In contrast, a graph where the edges are bidirectional is called an undirected graph.
-![Directed vs Undirected ](/AAD_proj_png/Directed_.png "Text to show on mouseover")
+![Directed vs Undirected ](/AAD_proj_png/Directed_.jpg "Text to show on mouseover")
 
 
 ## Weighted Graphs vs Unweighted Graphs
@@ -25,7 +25,7 @@ A subgraph of a graph that is connected within itself but not connected to the r
 
 ## Cyclic Graphs vs Acyclic Graphs
 In graph theory cycles are the paths such that it starts and ends at the same node. If a graph has a cycle then it is called a cyclic graph. If there are no cycles present in the graph then it is called a acyclic graph.
-![Cyclic vs Acyclic ](/AAD_proj_png/Cyclic_.png "Text to show on mouseover")
+![Cyclic vs Acyclic ](/AAD_proj_png/Cyclic_.jpg "Text to show on mouseover")
 
 ## Sparse graph vs Dense Graph 
 <p>A dense graph is a graph in which the number of edges is close to the maximal number of edges. The opposite, a graph with only a few edges, is a sparse graph. </p>
@@ -36,14 +36,14 @@ In graph theory cycles are the paths such that it starts and ends at the same no
 
 <p>To measure the actual density of a graph we use the following formula = 2R/N(N-1). Where R is the number of relationships (edges).</p>
 
-![Sparse vs Dense ](/AAD_proj_png/Sparse_.png "Text to show on mouseover")
+![Sparse vs Dense ](/AAD_proj_png/Sparse_.jpg "Text to show on mouseover")
 
 
 # Special Graphs 
 
 ## Trees
 A tree is an undirected graph with no cycles. Equvivalent;y , it is a connected graph with N nodes and N-1 edges.
-![Trees ](/AAD_proj_png/Trees.png "Text to show on mouseover")
+![Trees ](/AAD_proj_png/Trees.jpg "Text to show on mouseover")
 ## Rooted Tree
 A rooted tree is a tree with a designated root node where every edge either points away from or towards the root node. When edges point away from the root the graph is called an <b> arborescence (out-tree) </b> and <b>anti-aborescence (in-tree)</b> otherwise.
 ![Rooted ](/AAD_proj_png/Rooted.png "Text to show on mouseover")
@@ -53,19 +53,18 @@ DAGs are directed graphs with no cycles.
 Fact :bulb: 
 <p>All out-trees are DAGs but not all DAGs are out-trees</p>
 
-![DAG ](/AAD_proj_png/DAG.png "Text to show on mouseover")
+![DAG ](/AAD_proj_png/DAG.jpg "Text to show on mouseover")
 
 ## Bipartite Graph
 <p>A bipartite graph is one whose vertices can be split into two independant groups U,V such that every edge connects between U and V. </p> or
 <p>The graph is two colourable ie A graph is 2-colorable if we can color each of its vertices with one of two colors, say red and blue, in such a way that no two red vertices are connected by an edge, and no two blue vertices are connected by an edge (a k-colorable graph is defined in a similar way). </p> or <p> There is no odd length cycle. </p>
 
-![Bipartite ](/AAD_proj_png/Bipartite.png "Text to show on mouseover")
-
+![Bipartite ](/AAD_proj_png/Bipartite.jpg "Text to show on mouseover")
 
 ## Complete Graphs
 <p> A complete graph is one where there is a unique edge pair of nodes. A complete graph with n vertices is denoted as the graph K<sub>n</sub></p>
 
-![Complete](//AAD_proj_pngComplete.png "Text to show on mouseover")
+![Complete](/AAD_proj_png/Complete.jpg "Text to show on mouseover")
 
 # Representation of graphs
 
@@ -73,7 +72,7 @@ Fact :bulb:
 
 <p> A adjacency matrix is a very simple way to represent a graph. The idea is that the cell m[i][j] represents the edge weight of going from node i to node j.</p>
 
-![Adjacency Matrix](//AAD_proj_pngAdj_Matrix.png "Text to show on mouseover")
+![Adjacency Matrix](/AAD_proj_png/Adj_Matrix.jpg "Text to show on mouseover")
 
 |PROS     | CONS  |
 |-------- |-------|
@@ -83,7 +82,7 @@ Fact :bulb:
 ## Adjacency List
 <p>An adjacency list is a collection of unordered lists used to represent a finite graph. Each unordered list within an adjacency list describes the set of neighbors of a particular vertex in the graph.</p>
 
-![Adjacency List](/AAD_proj_png/Adj_List.png "Text to show on mouseover")
+![Adjacency List](/AAD_proj_png/Adj_List.jpg "Text to show on mouseover")
 
 |PROS     | CONS  |
 |-------- |-------|
@@ -93,7 +92,7 @@ Fact :bulb:
 ## Edge List
 <p>An edge list is a way to represnt a graph simply as an unordered list of edges. Assume the notation for any triplet (u,v,w) means : The cost fom node u to node v is w </p>
 
-![Edge List](/AAD_proj_png/Edge_List.png "Text to show on mouseover")
+![Edge List](/AAD_proj_png/Edge_List.jpg "Text to show on mouseover")
 |PROS     | CONS  |
 |-------- |-------|
 | Sapce efficient for represening sparse graph     |  Less space efficient for denser graphs         |
