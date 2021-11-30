@@ -20,7 +20,7 @@ Let us see this with a help of an example
 
 
 
-![BFS](/AAD_proj_png/BFS.png "Text to show on mouseover")
+![BFS](/AAD_proj_png/BFS.jpg "Text to show on mouseover")
 1. Let us initialise the queue 
 
 2. Let us take the starting node as S and mark it as visited.
