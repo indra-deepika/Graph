@@ -50,8 +50,8 @@ A rooted tree is a tree with a designated root node where every edge either poin
 
 ## Directed Acyclic Graph
 DAGs are directed graphs with no cycles.
-Fact :bulb: 
-<p>All out-trees are DAGs but not all DAGs are out-trees</p>
+Fact :bulb: <br>
+All out-trees are DAGs but not all DAGs are out-trees
 
 ![DAG ](/AAD_proj_png/DAG.jpg "Text to show on mouseover")
 
