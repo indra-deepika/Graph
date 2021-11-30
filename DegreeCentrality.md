@@ -20,7 +20,7 @@ Out-degree os defined as the number of connections that exist from this node to 
 
 
 
-![DegreeCentrality ](/AAD_proj_png/DegreeCentrality_.jpg "Text to show on mouseover")
+![DegreeCentrality ](/AAD_proj_png/DegreeCentrality.jpg "Text to show on mouseover")
 
 If the graph is stored in an adjacency matrix : 
 For the above graph the adjacency matrix would be
