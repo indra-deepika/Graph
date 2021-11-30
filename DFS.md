@@ -10,7 +10,7 @@ DFS was originally invented by French mathematician Charles Pierre Tremaux as a 
 
  <!-- ////////////////////Insert Pic ///////////////////////////////////////////////////-->
 
-###Implementation
+### Implementation
 
 We are assuming that the graph is stored in terms of an adjacency list. To implement the algorithm apart from the adjacency list that represents the graph we will also need an array that keeps track of the nodes that have been visited. 
 
