@@ -1,4 +1,4 @@
-## Degree Centrality 
+# :honeybee: Degree Centrality 
 
 The first type of centrality that we are going to talk about is the degree centrality :
 
