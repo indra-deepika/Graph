@@ -24,7 +24,7 @@ PR(u) = 1-d + d( PR(T1)/C(T1) + ...... + PR(Tn)/C(Tn))
 
 Let us see with an example how we can get the pageranks in a graph,
 
-![PageRank](/AAD_proj_png/PageRank_ex_.png "Text to show on mouseover")
+![PageRank](/AAD_proj_png/PageRank_ex_.jpg "Text to show on mouseover")
 
 First let us see this with the simple formula  
 <!-- PR(u) =    PR(v)/|out(v)|  check this part  -->
