@@ -1,6 +1,7 @@
 # :shamrock: Closeness Centrality 
+The second type of centrality that we are going to discuss is the Closeness Centrality.
 
-Closeness centrality of a node is measured as its average farness with respect to all other nodes. The nodes that are closeset to other node have the highest closeness centrality.
+Closeness Centrality is a way of detecting nodes that are able to spread information efficiently through a subgraph.Closeness centrality of a node is measured as its average farness with respect to all other nodes. The nodes that are closeset to other node have the highest closeness centrality.
 
 Centrality algorithm calculates the closeness centrality by taking the sum of the distances to other nodes(shortest distance) and the resulting sum is inverted.
 
