@@ -2,15 +2,15 @@
 
 Breeadth First Search is a graph traversal algoithm 
 
-## How does it work ?
+### How does it work ?
 First we saerch some arbitarary node in agraph , from that node we explore its neighboring nodes first and then we move on to next level of neighbours an so on.
 
-# Places we can use it in
+### Places we can use it in
 - To find the shortest paths in a graph 
-## Time Complexity 
+### Time Complexity 
 O(V+E)
 
-## Implementation
+### Implementation
 
 We follow the following implementation to find the breadth first search of a graph.
 
@@ -20,17 +20,17 @@ Let us see this with a help of an example
 
 
 
-<!-- pic -->
+![BFS](/AAD_proj_png/BFS.png "Text to show on mouseover")
 1. Let us initialise the queue 
-<!-- pic -->
+
 2. Let us take the starting node as S and mark it as visited.
 
 - Queue
  
-| | |
-|--|--|
+|    |    |
+|----|----|
 
-<!-- pic -->
+
 3. Now let's visit the unvisited adjacent node from S, mark it as visited and enqueue it . In this example there are 3 adjacent nodes for the vertex S so we enqueue them one by one 
 
 - Queue 
