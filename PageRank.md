@@ -2,7 +2,7 @@
 The last type of centrality that we are going to discuss is the PageRank.
 Pagerank is one of the most popular centrality algorithms. In all the other centrality algorithms above we only measure the direct influence of the nodes whereas in PageRank we consider the influence of the node , the node's neighbour so on and so forth.
 
- :bulb: <b> INTRESTING FACT </b> <br>
+ <b> INTRESTING FACT  :bulb:</b> <br>
 PageRank is named after Larry Page , cofounder of Google , he created it to rank the websites in Googl's search results. It was created by the basic assumption that the page that see a lot of incoming links and the one with more influential incomimg links must be the one that is most credible. Here the importance of a web pages can be taken as the number and quality of web pages that refer to it.
 
 
