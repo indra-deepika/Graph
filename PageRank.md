@@ -1,5 +1,5 @@
 # :leaves: PageRank 
-
+The last type of centrality that we are going to discuss is the PageRank.
 Pagerank is one of the most popular centrality algorithms. In all the other centrality algorithms above we only measure the direct influence of the nodes whereas in PageRank we consider the influence of the node , the node's neighbour so on and so forth.
 
  :bulb: <b> INTRESTING FACT </b> <br>
