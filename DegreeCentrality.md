@@ -57,7 +57,7 @@ Applications of Degree centrality
 
 We use degree centrality to analyse influence by looking at the number of incoming and ougoing relationships of a node or find the popularity of individual nodes.
 
-# Case studies 
+## Applications of degree centrality
 
 - Identifying the powerful individuals through their relationships say number of connections in social network.
 
