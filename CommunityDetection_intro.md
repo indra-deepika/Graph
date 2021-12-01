@@ -1,4 +1,4 @@
-# Community Detection Algorithm
+# 🕸️ Community Detection Algorithm
 
 In all types of networks we see the formation of communitites and indetifying these communitites helps us better undersstand the behaviours of these groups like  preferences of peer groups, estimate resiliency, find nested relationships etc.
 
