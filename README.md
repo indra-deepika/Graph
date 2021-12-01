@@ -20,15 +20,15 @@ Pathfinding Algorithms:
 Centrality Algorithms:
 1. Intro to centrality algorithms
 2. Degree Centrality
-3.Closenness Centrality
-4.Betweennes Centrality
-5.Page Rank
-6.Applications of centrality
+3. Closenness Centrality
+4. Betweennes Centrality
+5. Page Rank
+6. Applications of centrality
 
 Communtity Detection algorithms
-1.Intro to Community Detection Algorithms
-2.Clustering Coefficients
-3.Girvan Newman Algorithm
+1. Intro to Community Detection Algorithms
+2. Clustering Coefficients
+3. Girvan Newman Algorithm
 4. Bridges and Atriculation points
 5. Applications of community detecting algorithms
 
