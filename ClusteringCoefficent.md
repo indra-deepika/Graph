@@ -56,6 +56,9 @@ One of the obivious ways to find the degree of clustering of the grpah is to cal
 
 - Transitivity
 
+
+![Global Clustering ](/AAD_proj_png/Triads.jpg "Text to show on mouseover")
+
 It is given by the formula = 3 x number of closed triads /number of open triads
 
 Before moving to the formula first let us understand what a triad is. A triangle is simply 3 nodes connected by 3 edges, while a triad is 3 nodes connected by 2 edges. We can see that a triangle consists of 3 different triads (when one edge is removed).
