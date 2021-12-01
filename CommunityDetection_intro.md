@@ -18,4 +18,4 @@ Divisive Methods are the opposite of agglomerative method,. We start with the co
 We are going to see the basics of community detection:
 
 1. Clustering Coefficients 
-2. Strongly Connected Components
+2. Girvan Newman Algorithm
