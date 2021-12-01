@@ -1,4 +1,4 @@
-# Graph
+# Overview
 
  In this project I have tried to basic terminology of graphs , 3 different types of graph algorithms ie: 
  1. Pathfinding and Graph search Algorithms
