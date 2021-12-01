@@ -21,7 +21,9 @@ Another way of defining this same thing is :
 Multiplying the number of triangles passing through the node by two and then diving that by the maximum number
 of relationships in the group. Its given by the formula
 
+```
 CC(u)= 2R(u)/k<sub>u</sub>k<sub>u-1</sub>
+```
 
 Here: 
 where:
