@@ -1,4 +1,4 @@
-# Important Terminology
+# :fireworks:Important Terminology
 
 ## Simple Graph 
 Pair of vertices can have only one edge betweeen them.
