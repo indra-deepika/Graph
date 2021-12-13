@@ -1,9 +1,9 @@
 # :seedling: Breadth First Search 
 
-Breeadth First Search is a graph traversal algoithm 
+Breadth First Search is a graph traversal algoithm 
 
 ### How does it work ?
-First we saerch some arbitarary node in agraph , from that node we explore its neighboring nodes first and then we move on to next level of neighbours an so on.
+First we search some arbitarary node in a graph , from that node we explore its neighboring nodes first and then we move on to next level of neighbours an so on.
 
 ### Places we can use it in
 - To find the shortest paths in a graph 
